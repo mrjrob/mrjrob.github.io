@@ -339,7 +339,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /**
-   * rightside scroll percent
+   * 右侧滚动百分比
    */
   const rightsideScrollPercent = currentTop => {
     const scrollPercent = btf.getScrollPercent(currentTop, document.body)
@@ -541,7 +541,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /**
-   * Rightside
+   * 右侧
    */
   const rightSideFn = {
     readmode: () => { // read mode
